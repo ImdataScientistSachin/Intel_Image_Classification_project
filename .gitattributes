@@ -1,0 +1,4 @@
+*.h5 filter=lfs diff=lfs merge=lfs -text
+static/uploads/*.jpg filter=lfs diff=lfs merge=lfs -text
+static/uploads/*.jpeg filter=lfs diff=lfs merge=lfs -text
+static/uploads/*.png filter=lfs diff=lfs merge=lfs -text

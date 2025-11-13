@@ -1,0 +1,38 @@
+name: Intel_Image_Classification
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Core Python
+  - python=3.10
+
+  # Data processing libraries
+  - numpy
+  - pandas
+  - scikit-learn
+
+  # Visualization
+  - matplotlib
+  - altair<5
+
+  # Image processing
+  - pillow
+
+  # Deep learning framework
+  - tensorflow
+
+  # Web app
+  - streamlit
+  - werkzeug
+
+  # Package management
+  - pip
+
+  - pip:
+    # Additional dependencies not in conda
+    - opencv-python
+    - protobuf
+    - keras-preprocessing
+    - tensorflow-io-gcs-filesystem
